@@ -1,1 +1,2 @@
-This is a mod of the default qt5 text editor tutorial, made for me to get accostumed qith implementing gui conventions and experimenting, and also for getting used to how github works. It's just for learning purposes for now. The Qt5 version used is under the GNU Lesser General Public License (LGPL) version 2.1 . 
+	This is a mod of the default qt5 text editor tutorial, made for me to get accostumed qith implementing gui conventions and experimenting, and also for getting used to how github works. It's just for learning purposes for now. The Qt5 version used is under the GNU Lesser General Public License (LGPL) version 2.1 .
+	To compile, run qmake to generate the makefile(s) and make. Various Qt libraries are needed if using a dinamic build.

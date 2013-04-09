@@ -1,2 +1,6 @@
 *.bak
 *.pro.user
+Makefile*
+qmake.exe
+debug
+release
