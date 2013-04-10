@@ -28,7 +28,6 @@ int main(int argc, char *argv[])
     if (configFileStream.readAll() == "") {    //If it's blank, write defaults to it
 
         configFileStream << "default_prefs.dark_bg " << default_prefs.dark_bg << "\n";
-
     }
 
     //Read file preferences into the prefs struct
@@ -66,6 +65,6 @@ int main(int argc, char *argv[])
 */
     Notepad w;
     w.show();
-    
+
     return a.exec();
 }
